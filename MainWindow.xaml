@@ -1,0 +1,69 @@
+﻿<Window x:Class="WPF_Homework_1._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Homework_1._2"
+        mc:Ignorable="d"
+        Title="Project_2"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    <Window.Resources>
+        <System:Double x:Key="ButtonWidth1">332</System:Double>
+    </Window.Resources>
+    <Grid Background="Chocolate" Width="244" Height="454">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Button Margin="4" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="Black"></Button>
+        <Button Margin="4" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Background="White"></Button>
+        <Button Margin="4" Grid.Row="0" Grid.Column="3" Background="DimGray"></Button>
+        <Button Margin="4" Grid.Row="0" Grid.Column="4" Background="Pink"></Button>
+        <Button Margin="4" Grid.Row="0" Grid.Column="5" Background="Purple"></Button>
+        <Button Margin="4" Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="LightBlue"></Button>
+                 
+        <Button Margin="4" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Background="Green"></Button>
+        <Button Margin="4" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan="4" Background="GreenYellow"></Button>
+                
+        <Button Margin="4" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Background="MediumBlue"></Button>
+        <Button Margin="4" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Background="DarkBlue"></Button>
+        <Button Margin="4" Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Orange"></Button>
+                 
+        <Button Margin="4" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Background="Black"></Button>
+                 
+        <Button Margin="4" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="DeepSkyBlue"></Button>
+        <Button Margin="4" Grid.Row="4" Grid.Column="2" Grid.RowSpan="5" Background="Aqua"></Button>
+        <Button Margin="4" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Yellow"></Button>
+                
+        <Button Margin="4" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Blue"></Button>
+        <Button Margin="4" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="3" Background="Red"></Button>
+                 
+        <Button Margin="4" Grid.Row="6" Grid.Column="3" Grid.RowSpan="3" Background="AliceBlue"></Button>
+        <Button Margin="4" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="4" Grid.RowSpan="2" Background="Gray"></Button>
+                 
+        <Button Margin="4" Grid.Row="7" Grid.Column="0" Grid.RowSpan="2" Background="OliveDrab"></Button>
+        <Button Margin="4" Grid.Row="7" Grid.Column="1" Grid.RowSpan="2" Background="Moccasin"></Button>
+        <Button Margin="4" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="DarkBlue"></Button>
+        <Button Margin="4" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2" Background="Plum"></Button>
+                        
+        <Button Margin="4" Grid.Row="8" Grid.Column="6" Background="PaleVioletRed"></Button>
+        <Button Margin="4" Grid.Row="8" Grid.Column="7" Background="Tomato"></Button>
+    </Grid>
+</Window>
